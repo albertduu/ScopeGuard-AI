@@ -387,6 +387,6 @@ This project is released under the MIT License.
 
 ## Author
 
-Developed by **Albert Du** as part of a technical assessment for the **Navillus AI Deployment Graduate** position.
+Developed by **Albert Du** 
 
 If you have questions or feedback, feel free to connect with me on GitHub or LinkedIn.
