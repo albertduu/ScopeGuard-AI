@@ -1,0 +1,37 @@
+dataset,column,data_type,non_null_count,missing_count,unique_count,examples
+forms,Ref,str,10254,0,9858,F145185.4 | F1.495500 | F1.495499
+forms,Status,str,10254,0,26,Opened | Open / Ongoing Works | Subcontractor Signed Off
+forms,Location,str,10254,0,814,01 Daily Site Diary>Site Management>JPC Project Management | 02 Daily Work Plan>Site Management>JPC Project Management | 2nd to 3rd Floor>4. Courtyard (South Elevation)>Elevations>Block 3>ITP 02 Architectural & M&E Services>QC & BC(A)R
+forms,Name,str,10254,0,125,1328 CM-SM-FRM-001 Site Diary | SM-FRM-SUB-101 Daily Work Plan | QM-FRM-QC-009 Quality Control Record
+forms,Created,str,10254,0,433,15/09/2020 | 14/09/2020 | 13/09/2020
+forms,Type,str,10254,0,13,Site Management | Subcontractor Inspections | Quality 00 General
+forms,Status Changed,str,10254,0,349,15/09/2020 | 14/09/2020 | 13/09/2020
+forms,Open Actions,int64,10254,0,14,0 | 10 | 11
+forms,Total Actions,int64,10254,0,32,0 | 14 | 11
+forms,Association,str,2098,8156,2,parent | child
+forms,OverDue,bool,10254,0,1,False
+forms,Images,bool,10254,0,2,True | False
+forms,Comments,bool,10254,0,2,False | True
+forms,Documents,object,9450,804,2,False | True
+forms,Project,int64,10254,0,8,1328 | 1329 | 1330
+forms,Report Forms Status,str,10252,2,2,Open | Closed
+forms,Report Forms Group,str,10250,4,5,Site Management | Subcontractor | Quality
+tasks,Ref,str,12424,0,12118,T1.23963030 | T116412.200 | T141663.27
+tasks,Status,str,12424,0,16,Open | Closed | EHS Good Observation
+tasks,Location,str,12424,0,594,JPC Project Management>EHS Management>01 Inspections | QC & BC(A)R>ITP 02 Architectural & M&E Services>Block 1>Block 1 - Bracken Lane Elevation | QC & BC(A)R>ITP 02 Architectural & M&E Services>Block 2>5th Floor Plan
+tasks,Description,str,12424,0,10268,"task raised in incorrect location of this form. see field ""Have the EHS task(s), raised from the previous day(s) been actioned and closed?"" | Metsec | Good clear exclusion zones and access through site"
+tasks,Created,str,12424,0,351,14/09/2020 | 11/09/2020 | 10/09/2020
+tasks,Target,float64,2568,9856,255,44094.0 | 44091.0 | 44090.0
+tasks,Type,str,12424,0,37,Safety Notice (Amber) - General Issue | JPC - Progress Photo | Safety Notice (Green) - Good Observation
+tasks,To Package,str,11382,1042,105,Main Contractor | Ceilings & Partitions | Precast Concrete
+tasks,Status Changed,str,12424,0,361,14/09/2020 | 11/09/2020 | 15/09/2020
+tasks,Association,str,9483,2941,3,FormAnswer | ForwardedFrom | ForwardedTo
+tasks,OverDue,bool,12424,0,2,False | True
+tasks,Images,object,12272,152,2,True | False
+tasks,Comments,object,11902,522,2,False | True
+tasks,Documents,object,11780,644,2,False | True
+tasks,Priority,str,2366,10058,14,Behavioural Failure | System Failure | High
+tasks,Cause,str,9683,2741,47,JPC - Safety - Documentation | JPC - Safety - Access | JPC - Safety - House Keeping
+tasks,project,int64,12424,0,8,1328 | 1329 | 1330
+tasks,Report Status,str,12424,0,2,Open | Closed
+tasks,Task Group,str,12374,50,4,Safety | Site Management | Quality
