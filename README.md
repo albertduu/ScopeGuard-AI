@@ -227,35 +227,76 @@ Benefits include:
 - Predictable outputs
 - Future compatibility with LLM integration
 
+## Quick Start
+
+### Option 1: View the Live Application
+
+The easiest way to explore ScopeGuard AI is through the deployed application:
+
+**[Open ScopeGuard AI](https://scope-guard-ai-beta.vercel.app/)**
+
+No installation, account, API key, or configuration is required.
+
 ---
 
-# Running the Project
+### Option 2: Run Locally
 
-## Clone the repository
+#### Requirements
+
+- Node.js 20.9 or newer
+- npm, which is included with Node.js
+
+Python is not required to run the application. The preprocessed construction dataset is included in the repository.
+
+#### Clone the repository
 
 ```bash
 git clone https://github.com/albertduu/ScopeGuard-AI.git
+cd ScopeGuard-AI
 ```
 
-## Install dependencies
+#### Install dependencies
 
 ```bash
 npm install
 ```
 
-## Start the development server
+#### Start the application
 
 ```bash
 npm run dev
 ```
 
-Open:
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-```
-http://localhost:3000
-```
+No database, environment variables, API keys, or external services are required.
 
 ---
+
+### Option 3: Windows One-Click Start
+
+Windows users can launch the project without entering commands:
+
+1. Download or clone the repository.
+2. Open the project folder.
+3. Double-click `start-scopeguard.bat`.
+4. Allow the initial dependency installation to finish.
+5. ScopeGuard AI will open in the default browser.
+
+Keep the command window open while using the application. Press `Ctrl+C` to stop the local server.
+
+---
+
+## Production Build
+
+To verify the production build locally:
+
+```bash
+npm run build
+npm start
+```
+
+Then open [http://localhost:3000](http://localhost:3000).
 
 # Using ScopeGuard AI
 
